@@ -39,7 +39,7 @@ export class CardComponent implements OnInit {
     images: ["https://www.imagen.com.mx/assets/img/imagen_share.png", "https://eloutput.com/app/uploads-eloutput.com/2019/03/sonic-real-imagen-pelicula.jpg"]
 
   },{
-    title: "Titulo 5",
+    title: "Titulo 6",
     description: "descripcion 5 ",
     price: 10000.5,
     images: ["https://www.imagen.com.mx/assets/img/imagen_share.png", "https://eloutput.com/app/uploads-eloutput.com/2019/03/sonic-real-imagen-pelicula.jpg"]
