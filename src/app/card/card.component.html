@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <nb-flip-card *ngFor="let i of cardsInfo" class="col-sm-4 m-auto"> 
+      <nb-card-front>
+        <nb-card accent="info" status="warning">
+          <nb-card-header>{{i.title}}</nb-card-header>
+          <nb-card-body>
+            <img class="img-fluid" src="{{i.images[0]}}" alt="Image">
+          </nb-card-body>
+          <nb-card-footer>{{i.price}}</nb-card-footer>
+        </nb-card>
+      </nb-card-front>
+       <nb-card-back>
+        <nb-card accent="primary" status="info">
+          <nb-card-header><img class="img-fluid" src="{{i.images[0]}}" alt="Image"></nb-card-header>
+          <nb-card-body>
+            {{i.description}}
+          </nb-card-body>
+          <nb-card-footer>{{i.price}}</nb-card-footer> 
+        </nb-card>
+      </nb-card-back> 
+    </nb-flip-card>
+  </div>
+</div>
